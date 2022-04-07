@@ -8,7 +8,7 @@ import java.util.Scanner;
 이러한 상황에서도 동일하게 java Solution 명령으로 프로그램을 수행해볼 수 있습니다.
 */
 
-class SSWEA_DE_1954_달팽이숫자 {
+class SWEA_D2_1954_달팽이숫자 {
 
 	public static void main(String[] args) {
 

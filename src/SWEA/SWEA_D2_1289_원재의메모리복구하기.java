@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 이러한 상황에서도 동일하게 java Solution 명령으로 프로그램을 수행해볼 수 있습니다.
 */
 
-class SSWEA_DE_1289_원재의메모리복구하기 {
+class SWEA_D2_1289_원재의메모리복구하기 {
 	public static void main(String args[]) throws Exception {
 		/*
 		 * 아래의 메소드 호출은 앞으로 표준 입력(키보드) 대신 input.txt 파일로부터 읽어오겠다는 의미의 코드입니다. 여러분이 작성한 코드를

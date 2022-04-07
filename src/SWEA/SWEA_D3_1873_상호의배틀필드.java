@@ -2,7 +2,7 @@ package SWEA;
 
 import java.util.*;
 import java.io.*;
-public class SSEA_D3_1873_상호의배틀필드 {
+public class SWEA_D3_1873_상호의배틀필드 {
 
 	public static void main(String[] args) throws Exception, IOException {
 		// TODO Auto-generated method stub
