@@ -3,10 +3,9 @@ package Baekjoon.Gold;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.util.*;
 
-public class 백준_G5_연구소 {
+public class 백준_G5_14502_연구소 {
     static int[][] map; // 바이러스가 퍼지기 전 연구소
 //    static int[][] afterMap; // 기둥을 세운 후의 연구소
     static boolean[][] isVisited;
@@ -63,10 +62,9 @@ public class 백준_G5_연구소 {
         for(int i=start; i<list.size(); i++){
             if(visited[i]) continue;
             visited[i] = true;
-            combination(visited, start+1, depth+1, end);
+            combination(visited, i+1, depth+1, end);
             visited[i] = false;
         }
-
     }
 
     static int afterVirus(boolean[] isVisited){
