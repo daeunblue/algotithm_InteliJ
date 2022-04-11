@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class 백준_G1_이항계수3 {
+public class 백준_G1_11401_이항계수3 {
     static long[] factorial;
     static int T, N, R;
     static int nLimit, p ;
